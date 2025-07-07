@@ -1,0 +1,65 @@
+✅ Questão 01: Cálculo de Nota Final
+
+import java.util.Scanner;
+
+public class NotaFinal {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double MEDIA_APROVACAO = 7.0;
+
+        // Entrada das duas notas
+        System.out.print("Digite a primeira nota: ");
+        double nota1 = scanner.nextDouble();
+
+        System.out.print("Digite a segunda nota: ");
+        double nota2 = scanner.nextDouble();
+
+        // Cálculo da média
+        double media = (nota1 + nota2) / 2;
+
+        // Verificação de aprovação
+        boolean aprovado = media >= MEDIA_APROVACAO;
+        System.out.println("Aprovado: " + aprovado);
+
+        scanner.close();
+    }
+}
+
+✅ Questão 02: Verificação de Compra
+
+import java.util.Scanner;
+
+public class VerificacaoCompra {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double TAXA_DESCONTO = 0.10;
+
+        // Entrada do preço do produto
+        System.out.print("Digite o preço do produto: ");
+        double precoProduto = scanner.nextDouble();
+
+        // Entrada do valor disponível pelo cliente
+        System.out.print("Digite o valor disponível do cliente: ");
+        double valorDisponivel = scanner.nextDouble();
+
+        // Cálculo do preço com desconto
+        double precoComDesconto = precoProduto - (precoProduto * TAXA_DESCONTO);
+
+        // Verificação se o cliente pode comprar
+        boolean compraPermitida = valorDisponivel >= precoComDesconto;
+        System.out.println("Compra permitida: " + compraPermitida);
+
+        scanner.close();
+    }
+}
+
+✅ Questão 03: Triagem para Doação de Sangue
+
+import java.util.Scanner;
+
+public class DoacaoSangue {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        final double PESO
+
+
