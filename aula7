@@ -1,0 +1,54 @@
+✅ 1. Tipos Wrapper e Métodos Interessantes
+
+Aqui estão métodos úteis de cada classe wrapper:
+Classe Wrapper	Tipo Primitivo	Método Interessante	Descrição
+Integer	int	parseInt(String s)	Converte uma string para int
+Double	double	isNaN()	Verifica se um valor Double é "Não é Número"
+Character	char	isDigit(char c)	Verifica se o caractere é um número
+Boolean	boolean	parseBoolean(String s)	Converte string "true"/"false" para boolean
+String	—	toUpperCase()	Converte uma string para letras ✅ 2. Algoritmo Java Utilizando 3 Wrappers
+
+Abaixo está um pequeno programa que usa:
+
+    Integer.parseInt()
+
+    Character.isDigit()
+
+    String.toUpperCase()
+
+import java.util.Scanner;
+
+public class WrapperDemo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Usando Integer.parseInt()
+        System.out.print("Digite um número inteiro em formato de texto: ");
+        String numeroTexto = scanner.nextLine();
+        int numeroConvertido = Integer.parseInt(numeroTexto);
+        System.out.println("Número somado com 10: " + (numeroConvertido + 10));
+
+        // Usando Character.isDigit()
+        System.out.print("Digite um caractere: ");
+        char caractere = scanner.next().charAt(0);
+        boolean ehDigito = Character.isDigit(caractere);
+        System.out.println("É um dígito numérico? " + ehDigito);
+
+        // Usando String.toUpperCase()
+        scanner.nextLine(); // limpa o buffer
+        System.out.print("Digite uma frase: ");
+        String frase = scanner.nextLine();
+        System.out.println("Frase em maiúsculas: " + frase.toUpperCase());
+
+        scanner.close();
+    }
+}
+
+✅ Resumo dos métodos usados:
+
+    Integer.parseInt() → converte texto numérico para int
+
+    Character.isDigit() → verifica se um char é um número
+
+    String.toUpperCase() → transforma toda a string em letras maiúsculas
+
