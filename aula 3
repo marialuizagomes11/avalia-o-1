@@ -1,0 +1,53 @@
+✅ Questão 01: Cadastro de Aluno
+
+Informações que precisam ser armazenadas:
+
+    Nome completo do aluno
+
+    Idade
+
+    Altura (em metros)
+
+    Está matriculado ou não
+
+🟦 Variáveis e tipos:
+Informação	Nome da variável	Tipo de dado em Java	Justificativa
+Nome completo	nomeCompleto	String	Textos são representados por String
+Idade	idade	int	Idades geralmente são inteiros
+Altura	altura	double	Altura pode conter casas decimais
+Está matriculado	matriculado	boolean	Verdadeiro ou falso (sim/não)
+✅ Questão 02: Informações de Produto
+
+Informações a serem registradas:
+
+    Nome do produto
+
+    Quantidade em estoque
+
+    Preço unitário
+
+    Está disponível para venda
+
+🟦 Variáveis e tipos:
+Informação	Nome da variável	Tipo de dado em Java	Justificativa
+Nome do produto	nomeProduto	String	Para textos (ex: “Teclado Gamer”)
+Quantidade em estoque	quantidadeEstoque	int	Quantidade inteira
+Preço unitário	precoUnitario	double	Pode conter centavos (ex: R$ 99.90)
+Disponível para venda	disponivelParaVenda	✅ Questão 03: Dados de um Evento
+
+Dados a registrar:
+
+    Nome do evento
+
+    Número de participantes esperados
+
+    Preço do ingresso
+
+    Evento será presencial ou não
+
+🟦 Variáveis e tipos:
+Informação	Nome da variável	Tipo de dado em Java	Justificativa
+Nome do evento	nomeEvento	String	Nome textual
+Participantes esperados	numeroParticipantes	int	Quantidade inteira
+Preço do ingresso	precoIngresso	double	Valor com casas decimais
+Será presencial	eventoPresencial	boolean	Verdadeiro/falso (sim/não)
