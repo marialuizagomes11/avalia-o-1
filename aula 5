@@ -1,0 +1,29 @@
+✅ Questão 01: Verificação de Desconto de Produto
+
+public class VerificacaoDesconto {
+    public static void main(String[] args) {
+        // Variáveis booleanas
+        boolean produtoComDesconto = true;
+        boolean clienteTemCupom = false;
+
+        // Verifica se o desconto pode ser aplicado (OU - ||)
+        boolean descontoAplicado = produtoComDesconto || clienteTemCupom;
+
+        // Exibe o resultado
+        System.out.println("Desconto aplicado: " + descontoAplicado);
+    }
+}✅ Questão 02: Autorização de Compra
+
+public class AutorizacaoCompra {
+    public static void main(String[] args) {
+        // Variáveis booleanas
+        boolean saldoSuficiente = true;
+        boolean contaVerificada = false;
+
+        // Verifica se a compra é autorizada (E - &&)
+        boolean compraAutorizada = saldoSuficiente && contaVerificada;
+
+        // Exibe o resultado
+        System.out.println("Compra autorizada: " + compraAutorizada);
+    }
+}
