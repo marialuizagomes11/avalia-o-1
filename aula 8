@@ -1,0 +1,54 @@
+✅ Questão 01: Conversão de Temperatura (Celsius → Fahrenheit)
+
+import java.util.Scanner;
+
+public class ConversaoTemperatura {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada da temperatura em Celsius
+        System.out.print("Digite a temperatura em Celsius: ");
+        double celsius = scanner.nextDouble();
+
+        // Conversão para Fahrenheit
+        double fahrenheit = (celsius * 9 / 5) + 32;
+
+        // Exibição do resultado
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit);
+
+        scanner.close();
+    }
+}
+
+✅ Questão 02: Cálculo de Salário com Adicional
+
+import java.util.Scanner;
+
+public class CalculoSalario {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Entrada do salário-base
+        System.out.print("Digite o salário-base: ");
+        double salarioBase = scanner.nextDouble();
+
+        // Entrada do percentual de aumento
+        System.out.print("Digite o percentual de aumento (%): ");
+        double percentualAumento = scanner.nextDouble();
+
+        // Cálculo do salário final com reajuste
+        double salarioFinal = salarioBase + (salarioBase * (percentualAumento / 100));
+
+        // Exibição do resultado
+        System.out.println("Salário final com reajuste: R$ " + salarioFinal);
+
+        scanner.close();
+    }
+}
+
+✅ Exemplos de uso:
+
+    Temperatura: se digitar 25, a saída será 77.0 Fahrenheit.
+
+    Salário: se digitar salário 2000 e aumento 10, a saída será 2200.0.
+
