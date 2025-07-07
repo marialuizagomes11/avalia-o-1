@@ -1,0 +1,31 @@
+✅ Questão 01: Cálculo de Área e Perímetro
+
+public class Retangulo {
+    public static void main(String[] args) {
+        // Declaração das variáveis de base e altura (valores decimais)
+        double base = 5.5;
+        double altura = 3.2;
+
+        // Cálculo da área (base × altura)
+        double area = base * altura;
+
+        // Cálculo do perímetro (2 × (base + altura))
+        double perimetro = 2 * (base + altura);
+
+        // Exibição dos resultados no console
+        System.out.println("Área do retângulo: " + area);
+        System.out.println("Perímetro do retângulo: " + perimetro);
+    }✅ Questão 02: Comparação de Idades
+
+public class ComparacaoIdades {
+    public static void main(String[] args) {
+        // Declaração das idades das duas pessoas
+        int idadePessoa1 = 35;
+        int idadePessoa2 = 28;
+
+        // Verifica se a primeira pessoa é mais velha que a segunda
+        boolean primeiraMaisVelha = idadePessoa1 > idadePessoa2;
+
+        // Exibe o resultado da comparação
+        System.out.println("A primeira pessoa é mais velha: " + primeiraMaisVelha);
+    }
